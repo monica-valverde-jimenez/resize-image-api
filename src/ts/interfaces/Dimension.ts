@@ -1,4 +1,4 @@
 export interface Dimension {
-  width: any;
-  height?: any;
+  width: number;
+  height: number;
 }

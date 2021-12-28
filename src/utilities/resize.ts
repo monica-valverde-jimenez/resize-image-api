@@ -15,7 +15,7 @@ const resize = async (
   return sharp(`${imagePath}/${filename}`)
     .resize(imageSettings)
     .toBuffer()
-    .then((data: any) => data)
+    .then((data: Buffer) => data)
     .catch(() => false);
 };
 
